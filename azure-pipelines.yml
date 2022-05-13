@@ -20,5 +20,6 @@ steps:
     location: 'West US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Prasanga1996/plug/main/CreateStorage/Storage.json'
+    overrideParameters: '-storageAccountName newstorage'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
